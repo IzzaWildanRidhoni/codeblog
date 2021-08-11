@@ -1,0 +1,51 @@
+<a href="#"
+  ><div class="upbutton d-none" id="upbutton"><i class="fa fa-arrow-up"></i></div
+></a>
+<footer class="mt-5 py-5 d-none d-sm-block">
+  <hr />
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">&copy; www.blog.izzawildan.my.id</div>
+      <div class="col-sm-6 text-right">
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="p-5 d-block d-sm-none"></div>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/dark-mode-switch.min.js"></script>
+<script src="/js/prism.js"></script>
+<script>
+  document.getElementById('body').addEventListener('change', function () {
+    data = this.getAttribute('data-theme');
+    if (data == 'dark') {
+      gambar = document.getElementById('switch-onoff');
+      gambar.classList.remove('fa-sun-o');
+      gambar.classList.add('fa-moon-o');
+    } else {
+      gambar = document.getElementById('switch-onoff');
+      gambar.classList.remove('fa-moon-o');
+      gambar.classList.add('fa-sun-o');
+    }
+  });
+</script>
+<script>
+  $(window).scroll(function () {
+    var $this = $(this),
+      $upbutton = $('#upbutton');
+    if ($this.scrollTop() > 120) {
+      $upbutton.removeClass('d-none');
+    } else {
+      $upbutton.addClass('d-none');
+    }
+  });
+</script>

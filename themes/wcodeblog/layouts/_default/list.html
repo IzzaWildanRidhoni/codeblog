@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<!-- content -->
+<div class="box-kategori bg-primary text-center text-white">
+  <h1>Semua Kategori</h1>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    {{range .Paginator.Pages}}
+    <div class="col-md-3 col-sm-4 col-6 mt-4">
+      <a href="{{.Permalink}}">
+        <div class="card" width="100%">
+          <img src="/img/cover.png" class="card-img-top" alt="..." />
+        </div>
+      </a>
+    </div>
+    {{end}}
+  </div>
+</div>
+<!--akhir  content -->
+{{end}}

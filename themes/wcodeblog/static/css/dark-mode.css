@@ -1,0 +1,85 @@
+[data-theme='dark'] {
+  background-color: #262626 !important;
+  color: #eee;
+}
+[data-theme='dark'] .navbarbottom {
+  background-color: #181818 !important;
+  color: #eee;
+}
+
+[data-theme='dark'] svg path {
+  fill: #262626 !important;
+}
+[data-theme='dark'] .jumbotron {
+  background-color: #333 !important;
+}
+[data-theme='dark'] .navbar {
+  background-color: #181818 !important;
+}
+
+[data-theme='dark'] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme='dark'] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme='dark'] .bg-black {
+  background-color: #eee !important;
+}
+[data-theme='dark'] .card {
+  background-color: #333 !important;
+  color: white;
+}
+[data-theme='dark'] .content-kategori ul li {
+  background-color: #333 !important;
+  color: white;
+}
+
+[data-theme='dark'] .content-kategori ul li:hover {
+  background-color: #007bff !important;
+  color: white;
+}
+
+[data-theme='dark'] .content-kategori .link-ke-kategori {
+  color: white !important;
+}
+
+[data-theme='dark'] .pagination .page-link {
+  background-color: #181818 !important;
+  color: white !important;
+  border: none;
+}
+
+[data-theme='dark'] .pagination .page-link:hover {
+  background-color: #007bff !important;
+  color: white !important;
+  border: none;
+}
+
+[data-theme='dark'] .stiky-single a {
+  color: white !important;
+  border: none;
+}
+[data-theme='dark'] .stiky-single a:hover {
+  color: #007bff !important;
+  border: none;
+}
+
+[data-theme='dark'] .breadcrumb {
+  background-color: inherit !important;
+  color: white !important;
+}
+[data-theme='dark'] .breadcrumb .active {
+  color: white !important;
+}
+[data-theme='dark'] .box-kategori {
+  background-color: #181818 !important;
+  color: white !important;
+}
+
+[data-theme='dark'] #switch-onoff {
+  background-color: #262626 !important;
+  color: white !important;
+}

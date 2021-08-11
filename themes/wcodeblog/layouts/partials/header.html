@@ -1,0 +1,43 @@
+<!-- header -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="{{.Site.BaseURL}}">CodeBlog</a>
+    <div class="collapse navbar-collapse d-none d-sm-block" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="{{.Site.BaseURL}}">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/tags">Kategori</a>
+        <a class="nav-link" href="https://izzawildan.my.id">About Me</a>
+      </div>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+      <label class="switch-box" for="darkSwitch"><i class="fa fa-moon-o" id="switch-onoff"></i></label>
+    </div>
+  </div>
+</nav>
+
+<!-- navbarbootom -->
+<nav class="d-block d-sm-none fixed-bottom bg-primary text-white navbarbottom">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-4">
+        <center>
+          <a href="{{.Site.BaseURL}}"><i class="fa fa-home"></i></a>
+        </center>
+      </div>
+      <div class="col-4">
+        <center>
+          <a href="/tags"><i class="fa fa-book"></i></a>
+        </center>
+      </div>
+      <div class="col-4">
+        <center>
+          <a href="https://izzawildan.my.id"><i class="fa fa-user"></i></a>
+        </center>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- akhir navbarbootom -->
+
+<!-- akhir header -->

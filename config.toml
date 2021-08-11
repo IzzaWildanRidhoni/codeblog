@@ -1,0 +1,8 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'CodeBlog | by wildan'
+theme = 'wcodeblog'
+
+
+[params]
+    Description = "blog dengan konten-konten yang menarik seputar informatika dengan bahasa indonesia dan tentunya mudah dipahami"

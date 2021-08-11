@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+<!-- .content -->
+<div class="container mt-5 pt-5">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Blog</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{.Title}}</li>
+    </ol>
+  </nav>
+  <div class="row">
+    <div class="col-md-9 col-12">
+      <div class="card p-3">
+        <div class="d-flex align-items-center">
+          <img src="/img/author.png" alt="" width="50px" height="50px" class="rounded-circle ml-3" />
+          <div class="d-flex">
+            <span class="ml-3"><b>Izza Wildan </b> | {{ .PublishDate.Format "2 January 2006 " }}</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="judul-single">{{.Title}}</h2>
+          <hr />
+          <img src="/img/{{.Params.Gambar}}" alt="" class="img-fluid rounded mb-4" />
+
+          <div class="isi-single">
+            {{.Content}}
+
+            <div class="tags-single">
+              <b>Tags</b>
+
+              {{with .Params.tags}}
+              <div class="my-2">
+                {{range .}}
+                <a href="/tags/{{ . | urlize}}" class="badge badge-primary">{{.}}</a>
+                {{end}}
+              </div>
+              {{end}}
+
+              <br />
+              <div id="disqus_thread"></div>
+              <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+                (function () {
+                  // DON'T EDIT BELOW THIS LINE
+                  var d = document,
+                    s = d.createElement('script');
+                  s.src = 'https://wildanblog.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-12 mt-5 mt-md-1">
+      <div class="stiky-single">
+        <h4>Artikel Lainnya</h4>
+        <span>Baca Artikel keren</span>
+        <hr />
+        <div class="list-link-single mt-3">
+          <div class="row">
+            {{range where .Site.RegularPages "Section" "blog"}}
+            <div class="col-6 col-md-12 mt-3">
+              <a href="">
+                <div class="row">
+                  <div class="col-12 col-md-4"><img src="/img/{{.Params.Gambar}}" alt="" class="img-fluid" /></div>
+                  <div class="col-12 col-md-8">Lorem ipsum dolor sit amet consectetur.</div>
+                </div>
+              </a>
+            </div>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- akhirv  content -->
+{{end}}
