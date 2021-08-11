@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on CodeBlog | by wildan</title>
+    <link>https://blog.izzawildan.my.id/blog/</link>
+    <description>Recent content in Blogs on CodeBlog | by wildan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Aug 2021 20:34:16 +0700</lastBuildDate><atom:link href="https://blog.izzawildan.my.id/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pemrograman</title>
+      <link>https://blog.izzawildan.my.id/blog/postingan-pertama/</link>
+      <pubDate>Wed, 11 Aug 2021 20:34:16 +0700</pubDate>
+      
+      <guid>https://blog.izzawildan.my.id/blog/postingan-pertama/</guid>
+      <description>Postingan Pertama HTML memang bahasa yang wajib dipelajari, bagi yang mau menjadi web developer.
+Karena…
+HTML merupakan bahasa dasar untuk membuat web.
+Saya yakin, kamu sudah pernah mendengar HTML sebelumnya. Tapi tidak ada salahnya membaca kebali artikel ini.
+Pada tutorial ini, kita akan benar-benar membahas dari nol hingga kamu bisa membuat halaman HTML sendiri.
+Baiklah…
+Mari kita mulai!
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34; /&amp;gt; &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34; /&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.</description>
+    </item>
+    
+    <item>
+      <title>Postingan Belajar Hugo Part1</title>
+      <link>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo/</link>
+      <pubDate>Wed, 11 Aug 2021 20:34:16 +0700</pubDate>
+      
+      <guid>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo/</guid>
+      <description>belajar hugo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates tempora, nostrum optio enim, beatae nulla dolores libero soluta, quaerat minus. At perspiciatis mollitia aliquid laudantium illum dolorum dicta nesciunt!</description>
+    </item>
+    
+    <item>
+      <title>Postingan Belajar Hugo Part2</title>
+      <link>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo-part2/</link>
+      <pubDate>Wed, 11 Aug 2021 20:34:16 +0700</pubDate>
+      
+      <guid>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo-part2/</guid>
+      <description>belajar mantap Loremskasnasdskaldska</description>
+    </item>
+    
+  </channel>
+</rss>

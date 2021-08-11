@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.izzawildan.my.id/blog/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/tags/css/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/tags/html/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/tags/js/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/blog/postingan-pertama/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo-part2/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/tags/</loc>
+    <lastmod>2021-08-11T20:34:16+07:00</lastmod>
+  </url><url>
+    <loc>https://blog.izzawildan.my.id/categories/</loc>
+  </url>
+</urlset>

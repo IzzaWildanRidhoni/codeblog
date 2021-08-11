@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on CodeBlog | by wildan</title>
+    <link>https://blog.izzawildan.my.id/tags/css/</link>
+    <description>Recent content in css on CodeBlog | by wildan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Aug 2021 20:34:16 +0700</lastBuildDate><atom:link href="https://blog.izzawildan.my.id/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postingan Belajar Hugo Part1</title>
+      <link>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo/</link>
+      <pubDate>Wed, 11 Aug 2021 20:34:16 +0700</pubDate>
+      
+      <guid>https://blog.izzawildan.my.id/blog/postingan-belajar-hugo/</guid>
+      <description>belajar hugo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates tempora, nostrum optio enim, beatae nulla dolores libero soluta, quaerat minus. At perspiciatis mollitia aliquid laudantium illum dolorum dicta nesciunt!</description>
+    </item>
+    
+  </channel>
+</rss>

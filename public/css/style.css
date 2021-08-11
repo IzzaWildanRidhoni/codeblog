@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbarbottom {
+  height: 50px;
+  border-radius: 0;
+}
+.navbarbottom a {
+  color: white;
+  line-height: 50px;
+  text-align: center;
+}
+
+.jumbotron {
+  position: relative;
+}
+.jumbotron h1 {
+  font-weight: 600;
+}
+.jumbotron p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.jumbotron svg {
+  width: 110%;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+}
+@media screen and (max-width: 949px) {
+  .jumbotron svg {
+    display: none;
+  }
+}
+
+.content-blog a {
+  color: #262626;
+  text-decoration: none;
+}
+.content-blog .card {
+  transition: 0.1s;
+}
+.content-blog .card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.content-kategori ul a {
+  text-decoration: none;
+  color: #262626;
+}
+.content-kategori ul li {
+  transition: 0.2s;
+}
+.content-kategori ul li:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+footer a {
+  color: #262626;
+  padding: 10px;
+  display: inline-block;
+  transition: 0.2s;
+}
+footer a:hover {
+  color: white;
+  background-color: #262626;
+  border-radius: 4px;
+}
+
+.upbutton {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+}
+
+/* kategori */
+.box-kategori {
+  text-align: center;
+  padding: 0;
+  height: 250px;
+  margin: 0;
+}
+.box-kategori h1 {
+  margin: auto;
+  line-height: 250px;
+}
+
+/* single */
+.stiky-single {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+}
+.list-link-single a {
+  text-decoration: none;
+  color: #262626;
+}
+.list-link-single a:hover {
+  color: #007bff;
+}
+
+/* responsive */
+@media screen and (max-width: 570px) {
+  .upbutton {
+    bottom: 60px !important;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  .jumbotron p {
+    font-size: 20px;
+  }
+  .judul-single {
+    font-size: 25px !important;
+  }
+}
+#switch-onoff {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  color: #262626;
+  cursor: pointer;
+  background-color: #fff;
+}
