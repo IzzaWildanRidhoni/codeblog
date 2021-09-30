@@ -10,4 +10,4 @@ tags:
 ---
 # belajar Hugo
 
-Belajar hugo
+Belajar hugo![](/uploads/poster.jpg)
